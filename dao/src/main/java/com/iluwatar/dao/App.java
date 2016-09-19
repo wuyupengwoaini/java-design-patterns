@@ -68,6 +68,7 @@ public class App {
     final CustomerDao dbDao = new DbCustomerDao(dataSource);
     performOperationsUsing(dbDao);
     deleteSchema(dataSource);
+    // diff test
   }
 
   private static void deleteSchema(DataSource dataSource) throws SQLException {
